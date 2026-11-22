@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:49:03+00:00",
+  "generated_at": "2026-11-22T19:41:42+00:00",
   "status": "completed_with_warnings",
   "errors": [],
   "warnings": [],
@@ -8,10 +8,10 @@
     "loaded": true,
     "error": null,
     "candidates": {
-      "total": 2895,
+      "total": 2912,
       "eligible": 514,
       "rejected_forbidden": 110,
-      "rejected_provider": 2268,
+      "rejected_provider": 2285,
       "rejected_paid": 0,
       "rejected_scheme": 3
     }
@@ -138,7 +138,7 @@
       "reason": "forbidden_source",
       "candidates": [
         {
-          "url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=1FePa3QoB8EojUuEV7vTCA&e=2095291533&scheme=https",
+          "url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=wOQfADnYfFK8M73xKkylWw&e=2095336117&scheme=https",
           "name": "Охотник и рыболов",
           "provider": "RUTUBE (VPN)",
           "match": "exact",
@@ -153,7 +153,7 @@
         }
       ],
       "failure": null,
-      "new_url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=1FePa3QoB8EojUuEV7vTCA&e=2095291533&scheme=https",
+      "new_url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=wOQfADnYfFK8M73xKkylWw&e=2095336117&scheme=https",
       "new_provider": "RUTUBE (VPN)"
     },
     {
@@ -170,7 +170,7 @@
       "reason": "dead",
       "candidates": [
         {
-          "url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=qsgMdPEmsTjwIDXq_xF2nA&e=2095291534&scheme=https",
+          "url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=UIu2P_VD5Oe1rJJnLVGbjQ&e=2095336118&scheme=https",
           "name": "Загородный International",
           "provider": "RUTUBE (VPN)",
           "match": "exact",
@@ -185,7 +185,7 @@
         }
       ],
       "failure": null,
-      "new_url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=qsgMdPEmsTjwIDXq_xF2nA&e=2095291534&scheme=https",
+      "new_url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=UIu2P_VD5Oe1rJJnLVGbjQ&e=2095336118&scheme=https",
       "new_provider": "RUTUBE (VPN)"
     },
     {
@@ -768,6 +768,6 @@
     "replacements_failed": 28,
     "replacements_skipped_protected": 0,
     "unchecked_or_undetermined": 0,
-    "duration_seconds": 41.5
+    "duration_seconds": 33.9
   }
 }
