@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:41:42+00:00",
+  "generated_at": "2026-11-23T07:40:22+00:00",
   "status": "completed_with_warnings",
   "errors": [],
   "warnings": [],
@@ -8,8 +8,8 @@
     "loaded": true,
     "error": null,
     "candidates": {
-      "total": 2912,
-      "eligible": 514,
+      "total": 2914,
+      "eligible": 516,
       "rejected_forbidden": 110,
       "rejected_provider": 2285,
       "rejected_paid": 0,
@@ -138,7 +138,7 @@
       "reason": "forbidden_source",
       "candidates": [
         {
-          "url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=wOQfADnYfFK8M73xKkylWw&e=2095336117&scheme=https",
+          "url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=Zpm-REcZaALVR6tPbTz1vw&e=2095377422&scheme=https",
           "name": "Охотник и рыболов",
           "provider": "RUTUBE (VPN)",
           "match": "exact",
@@ -153,7 +153,7 @@
         }
       ],
       "failure": null,
-      "new_url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=wOQfADnYfFK8M73xKkylWw&e=2095336117&scheme=https",
+      "new_url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=Zpm-REcZaALVR6tPbTz1vw&e=2095377422&scheme=https",
       "new_provider": "RUTUBE (VPN)"
     },
     {
@@ -170,7 +170,7 @@
       "reason": "dead",
       "candidates": [
         {
-          "url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=UIu2P_VD5Oe1rJJnLVGbjQ&e=2095336118&scheme=https",
+          "url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=HI5fETnhNUT345Ddn5VSPw&e=2095377425&scheme=https",
           "name": "Загородный International",
           "provider": "RUTUBE (VPN)",
           "match": "exact",
@@ -185,7 +185,7 @@
         }
       ],
       "failure": null,
-      "new_url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=UIu2P_VD5Oe1rJJnLVGbjQ&e=2095336118&scheme=https",
+      "new_url": "https://bl.rutube.ru/livestream/***/index.m3u8?s=HI5fETnhNUT345Ddn5VSPw&e=2095377425&scheme=https",
       "new_provider": "RUTUBE (VPN)"
     },
     {
@@ -351,7 +351,7 @@
       "original_url": "http://50.7.28.226/8196/index.m3u8",
       "source_check": {
         "state": "fail",
-        "reason": "connection_error"
+        "reason": "timeout"
       },
       "reason": "dead",
       "candidates": [],
@@ -373,12 +373,89 @@
       "failure": "no_matching_candidates"
     },
     {
+      "index": 52,
+      "name": "СТС Love",
+      "group": "Развлекательные",
+      "status": "replaced",
+      "need_reason": "dead",
+      "original_url": "https://fs.uplink.kz/sts_love/mono.m3u8?token=***",
+      "source_check": {
+        "state": "fail",
+        "reason": "auth_required_or_denied_http_403"
+      },
+      "reason": "dead",
+      "candidates": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8",
+          "name": "СТС Love",
+          "provider": "WINK",
+          "match": "exact",
+          "check": {
+            "state": "ok",
+            "reason": "hls",
+            "detail": {
+              "segments": 4
+            }
+          },
+          "free_status": "assumed_free_by_allowed_provider_not_independently_verified"
+        }
+      ],
+      "failure": null,
+      "new_url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8",
+      "new_provider": "WINK"
+    },
+    {
+      "index": 54,
+      "name": "ТНТ 4",
+      "group": "Развлекательные",
+      "status": "kept_unreplaced",
+      "need_reason": "dead",
+      "original_url": "https://fs.uplink.kz/tnt4/mono.m3u8?token=***",
+      "source_check": {
+        "state": "fail",
+        "reason": "auth_required_or_denied_http_403"
+      },
+      "reason": "dead",
+      "candidates": [],
+      "failure": "no_matching_candidates"
+    },
+    {
+      "index": 55,
+      "name": "Перец",
+      "group": "Развлекательные",
+      "status": "kept_unreplaced",
+      "need_reason": "dead",
+      "original_url": "https://fs.uplink.kz/perec/mono.m3u8?token=***",
+      "source_check": {
+        "state": "fail",
+        "reason": "auth_required_or_denied_http_403"
+      },
+      "reason": "dead",
+      "candidates": [],
+      "failure": "no_matching_candidates"
+    },
+    {
       "index": 57,
       "name": "РЖД ТВ",
       "group": "Развлекательные",
       "status": "kept_unreplaced",
       "need_reason": "dead",
       "original_url": "https://hls-tva.cdnvideo.ru/tva/tvahd.sdp/tracks-v1a1/mono.m3u8",
+      "source_check": {
+        "state": "fail",
+        "reason": "auth_required_or_denied_http_403"
+      },
+      "reason": "dead",
+      "candidates": [],
+      "failure": "no_matching_candidates"
+    },
+    {
+      "index": 58,
+      "name": "Лапки Live",
+      "group": "Развлекательные",
+      "status": "kept_unreplaced",
+      "need_reason": "dead",
+      "original_url": "https://fs.uplink.kz/lapki_live/mono.m3u8?token=***",
       "source_check": {
         "state": "fail",
         "reason": "auth_required_or_denied_http_403"
@@ -728,12 +805,42 @@
       "failure": "no_matching_candidates"
     },
     {
+      "index": 105,
+      "name": "Мосфильм. Золотая Коллекция",
+      "group": "Кино",
+      "status": "kept_unreplaced",
+      "need_reason": "dead",
+      "original_url": "https://fs.uplink.kz/mosfilm/mono.m3u8?token=***",
+      "source_check": {
+        "state": "fail",
+        "reason": "auth_required_or_denied_http_403"
+      },
+      "reason": "dead",
+      "candidates": [],
+      "failure": "no_matching_candidates"
+    },
+    {
       "index": 107,
       "name": "Кино ТВ",
       "group": "Кино",
       "status": "kept_unreplaced",
       "need_reason": "dead",
       "original_url": "http://stream.mcquack.net/221/tracks-v1a1/mono.ts.m3u8",
+      "source_check": {
+        "state": "fail",
+        "reason": "auth_required_or_denied_http_403"
+      },
+      "reason": "dead",
+      "candidates": [],
+      "failure": "no_matching_candidates"
+    },
+    {
+      "index": 108,
+      "name": "Победа",
+      "group": "Кино",
+      "status": "kept_unreplaced",
+      "need_reason": "dead",
+      "original_url": "https://fs.uplink.kz/pobeda/mono.m3u8?token=***",
       "source_check": {
         "state": "fail",
         "reason": "auth_required_or_denied_http_403"
@@ -761,13 +868,13 @@
   "summary": {
     "total_channels": 115,
     "checked_channels": 115,
-    "working_streams": 77,
-    "broken_streams": 24,
-    "needing_replacement": 38,
-    "replacements_succeeded": 10,
-    "replacements_failed": 28,
+    "working_streams": 71,
+    "broken_streams": 30,
+    "needing_replacement": 44,
+    "replacements_succeeded": 11,
+    "replacements_failed": 33,
     "replacements_skipped_protected": 0,
     "unchecked_or_undetermined": 0,
-    "duration_seconds": 33.9
+    "duration_seconds": 40.0
   }
 }
